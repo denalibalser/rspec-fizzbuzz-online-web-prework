@@ -3,7 +3,9 @@ def fizzbuzz(number)
     return "Fizz"
 elsif number == 5
   return "Buzz"
+elsif number == 15
+  return "FizzBuzz"
 else
-  return nil 
+  return nil
   end
 end
